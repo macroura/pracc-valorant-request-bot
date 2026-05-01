@@ -1,0 +1,31 @@
+{
+  "manifest_version": 3,
+  "name": "Pracc Auto-Request Pro",
+  "version": "1.1",
+  "description": "Automatically filters and requests scrims on Pracc.com for Valorant teams.",
+  "permissions": [
+    "storage",
+    "activeTab"
+  ],
+  "action": {
+    "default_popup": "panel.html",
+    "default_icon": "icon.png"
+  },
+  "icons": {
+    "128": "icon.png"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://pracc.com/*"
+      ],
+      "css": [
+        "panel.css"
+      ],
+      "js": [
+        "content.js"
+      ],
+      "run_at": "document_idle"
+    }
+  ]
+}

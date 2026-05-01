@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- This links to your existing CSS file -->
+    <link rel="stylesheet" href="panel.css">
+</head>
+<body>
+    <div id="pracc-ar-panel">
+        <div id="pracc-ar-body" class="open">
+            <div class="ar-section-label">Minimum Rank</div>
+            <div class="ar-rank-row">
+                <select id="ar-rank-select">
+                    <option value="Platinum">Average Platinum</option>
+                    <option value="Diamond">Average Diamond</option>
+                    <option value="Ascendant" selected>Average Ascendant</option>
+                    <option value="Immortal">Average Immortal</option>
+                </select>
+            </div>
+
+            <div class="ar-section-label">Preferred Maps</div>
+            <div class="ar-maps-grid">
+                <label class="ar-map-check"><input type="checkbox" id="haven" checked> <span>Haven</span></label>
+                <label class="ar-map-check"><input type="checkbox" id="ascent" checked> <span>Ascent</span></label>
+                <label class="ar-map-check"><input type="checkbox" id="pearl" checked> <span>Pearl</span></label>
+                <label class="ar-map-check"><input type="checkbox" id="lotus" checked> <span>Lotus</span></label>
+                <label class="ar-map-check"><input type="checkbox" id="bind"> <span>Bind</span></label>
+                <label class="ar-map-check"><input type="checkbox" id="split"> <span>Split</span></label>
+            </div>
+
+            <div class="ar-section-label">Settings</div>
+            <div class="ar-delay-row">
+                <span class="ar-delay-label">Delay (seconds)</span>
+                <input type="number" id="ar-delay-input" value="2" min="1">
+            </div>
+
+            <div id="ar-status">Ready — configure filters and click Start.</div>
+            
+            <button id="ar-start-btn">START AUTO-REQUEST</button>
+            <button id="ar-stop-btn">STOP</button>
+        </div>
+
+        <button id="pracc-ar-toggle">
+            <div class="ar-dot"></div>
+            AUTO REQUEST
+        </button>
+    </div>
+    <script src="panel.js"></script>
+</body>
+</html>

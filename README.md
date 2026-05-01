@@ -19,7 +19,7 @@ To use this tool, you must install it as an "unpacked" extension in your browser
     *   **Chrome**: Copy and paste `chrome://extensions` into your address bar.
 *   Find the **Developer Mode** toggle (usually in the top-right corner or left sidebar) and switch it **ON**.
 *   Click the **Load unpacked** button that appears.
-*   In the file picker, select the **folder** where you extracted the files (the folder containing `manifest_2.json`).
+*   In the file picker, select the **folder** you extracted, and select the final folder inside containing all of the files
 
 ---
 

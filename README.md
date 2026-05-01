@@ -26,9 +26,9 @@ To use this tool, you must install it as an "unpacked" extension in your browser
 ## 🚀 How to Use
 
 1.  **Navigate**: Go to [pracc.com/search](https://pracc.com/search).
-2.  **Open Panel**: Click the **AUTO REQUEST** tab in the bottom-right corner of the page.
-3.  **Set Filters**: Choose your **Minimum Rank** and check the **Maps** your team plays.
-4.  **Set Delay**: Keep the delay at **2–3 seconds** to avoid being rate-limited by the site.
+2.  **Request Scrims**: Send out your LFS request, and select **Match my posted requests** on the side under Date & Time and **REFRESH** the page
+3.  **Open Panel**: Click the **AUTO REQUEST** tab in the bottom-right corner of the page.
+4.  **Set Filters**: Choose your **Minimum Rank** and check the **Maps** your team plays.
 5.  **Start**: Click **START AUTO-REQUEST**.
 
 The bot will scan visible team cards and automatically send offers to matching teams.

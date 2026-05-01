@@ -1,53 +1,48 @@
 # PRACC Auto-Request Pro
 
-This browser extension automates the process of finding and requesting scrims on [PRACC.com](https://pracc.com) for Valorant teams. It filters available teams based on your specific rank and map requirements and handles the "Make Offer" process automatically.
+This browser extension automates the process of finding and requesting scrims on [PRACC.com](https://pracc.com) for Valorant teams[cite: 2, 5]. It filters available teams based on your specific rank and map requirements and handles the "Make Offer" process automatically[cite: 1, 5].
 
 ---
 
-## 📥 Download and Installation
+## 📥 Installation (Edge & Chrome)
 
-To use this tool, you must install it as an "unpacked" extension in your browser.
+To use this tool, you must install it as an "unpacked" extension in your browser[cite: 5].
 
-### 1. Download the Files
-*   Click the green **Code** button at the top of this GitHub page.
-*   Select **Download ZIP**.
-*   Locate the downloaded `.zip` file on your computer and **Extract** it to a folder you can easily access (e.g., your Desktop).
+### 1. Download the Extension
+*   Go to the [Releases](https://github.com/YOUR_USERNAME/YOUR_REPO/releases) page of this repository.
+*   Download the latest `pracc-valorant-request-bot-main.zip` file.
+*   Extract the ZIP file to a folder on your computer (e.g., your Desktop)[cite: 5].
 
-### 2. Install in Edge or Chrome
+### 2. Load into your Browser
 *   Open your browser and navigate to the extensions page:
-    *   **Edge**: Copy and paste `edge://extensions` into your address bar.
-    *   **Chrome**: Copy and paste `chrome://extensions` into your address bar.
-*   Find the **Developer Mode** toggle (usually in the top-right corner or left sidebar) and switch it **ON**.
-*   Click the **Load unpacked** button that appears.
-*   In the file picker, select the **folder** you extracted, and select the final folder inside containing all of the files
+    *   **Edge**: `edge://extensions`[cite: 5]
+    *   **Chrome**: `chrome://extensions`[cite: 5]
+*   Switch **Developer Mode** (top-right corner) to **ON**[cite: 5].
+*   Click the **Load unpacked** button[cite: 5].
+*   Select the folder you just extracted and select the folder inside of that (ensure you select the folder containing `manifest.json`)[cite: 2, 5].
 
 ---
 
 ## 🚀 How to Use
 
-1.  **Open the Site**: Go to [pracc.com/search](https://pracc.com/search).
-2.  **Open the Panel**: Click the **AUTO REQUEST** tab in the bottom-right corner of the page to expand the settings.
-3.  **Set Minimum Rank**: Choose the lowest average rank you want to play against (e.g., **Average Ascendant**).
-4.  **Select Maps**: Check the boxes for the maps your team plays. The bot will only offer scrims to teams requesting at least one matching map.
-5.  **Set Delay**: Set a delay (2–3 seconds is recommended) to keep the bot from clicking too fast and getting blocked.
-6.  **Start Scan**: Click **START AUTO-REQUEST**.
+1.  **Navigate**: Go to [pracc.com/search](https://pracc.com/search)[cite: 5].
+2.  **Open Panel**: Click the **AUTO REQUEST** tab in the bottom-right corner[cite: 5].
+3.  **Set Filters**: Choose your **Minimum Rank** and check the **Maps** your team plays[cite: 3, 5].
+4.  **Set Delay**: Keep the delay at **2–3 seconds** to avoid being rate-limited by the site[cite: 5].
+5.  **Start**: Click **START AUTO-REQUEST**[cite: 3].
 
-The extension will scan all visible team cards and automatically click "Make Offer" for any that meet your criteria.
+The bot will scan visible team cards and automatically send offers to matching teams[cite: 1, 5].
 
 ---
 
-## 📁 Repository Structure
-
-*   `manifest_2.json`: The extension configuration file.
-*   `content_2.js`: The core logic for scanning pages and handling modals.
-*   `panel_2.html`: The user interface for the settings panel.
-*   `panel_2.css`: The visual styling for the interface.
-*   `icon_2.png`: The extension's icon.
+## 📁 Files Included
+*   `manifest.json`: Configuration for the browser[cite: 2].
+*   `content.js`: Main logic for scanning and clicking[cite: 1, 2].
+*   `panel.html` & `panel.css`: Interface design and styling[cite: 3, 4].
 
 ---
 
 ## ⚠️ Important Notes
-
-*   **Visibility**: The bot only acts on teams **currently visible** on your screen. Scroll down to load more team cards before starting the scan.
-*   **Stability**: If the site updates its layout, the bot may require updates to its button selectors to continue functioning.
-*   **Safety**: Keep the delay at **2–3 seconds** to avoid being restricted by PRACC.
+*   **Visibility**: The bot only scans teams currently visible on your page. Scroll down to load more teams before running[cite: 5].
+*   **Rate Limiting**: Do not set the delay too low; 2 seconds is the recommended minimum for safety[cite: 5].
+*   **Stability**: If PRACC updates their website layout, this bot may require an update to its selectors[cite: 5].

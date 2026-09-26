@@ -4,7 +4,7 @@ This browser extension automates the process of finding and requesting scrims on
 
 ---
 
-## 📥 Installation (Edge & Chrome)
+## Installation (Edge & Chrome)
 
 To use this tool, you must install it as an "unpacked" extension in your browser.
 
@@ -23,7 +23,7 @@ To use this tool, you must install it as an "unpacked" extension in your browser
 
 ---
 
-## 🚀 How to Use
+## How to Use
 
 1.  **Navigate**: Go to [pracc.com/search](https://pracc.com/search).
 2.  **Request Scrims**: Send out your LFS request, and select **Match my posted requests** on the side under Date & Time and **REFRESH** the page
@@ -35,7 +35,7 @@ The bot will scan visible team cards and automatically send offers to matching t
 
 ---
 
-## 📁 Files Included
+##
 *   `manifest.json`: Configuration for the browser.
 *   `content.js`: Main logic for scanning and clicking.
 *   `panel.html` & `panel.css`: Interface design and styling.

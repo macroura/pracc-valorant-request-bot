@@ -41,8 +41,3 @@ The bot will scan visible team cards and automatically send offers to matching t
 *   `panel.html` & `panel.css`: Interface design and styling.
 
 ---
-
-## ⚠️ Important Notes
-*   **Visibility**: The bot only scans teams currently visible on your page. Scroll down to load more teams before running.
-*   **Rate Limiting**: Do not set the delay too low; 2 seconds is the recommended minimum for safety.
-*   **Stability**: If PRACC updates their website layout, this bot may require an update to its selectors.
